@@ -14,11 +14,14 @@ use yii\helpers\Html;
         <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
             <span class="sr-only">Toggle navigation</span>
         </a>
-
         <div class="navbar-custom-menu">
-
             <ul class="nav navbar-nav">
 
+	            <li class="dropdown messages-menu">
+			        <a href="<?= Yii::$app->params['site_url'] ?>" target="_blank" title="前台首页">
+				        <i class="fa  fa-home"></i>
+			        </a>
+	            </li>
                 <!-- Messages: style can be found in dropdown.less-->
                 <li class="dropdown messages-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
